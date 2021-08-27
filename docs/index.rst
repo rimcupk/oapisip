@@ -10,7 +10,7 @@ Welcome to oapisip's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   chapters/01_algo/01_algo.rst
 
 Indices and tables
 ==================
