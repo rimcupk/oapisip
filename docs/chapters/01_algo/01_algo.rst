@@ -157,6 +157,12 @@
        :alt: asda
        
 
+.. figure:: 01_lin_graph.png
+       :scale: 100 %
+       :align: center
+       :alt: asda
+       
 
+Примеры алгоритмов
 
 
