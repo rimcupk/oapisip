@@ -259,7 +259,7 @@ asd :math:`a^2 + b^2 = c^2`
 
 .. sourcecode:: ipython
 
-In [69]: lines = [1,2,3]
+
 
 
 Продолжение следует...
