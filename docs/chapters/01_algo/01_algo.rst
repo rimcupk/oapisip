@@ -255,7 +255,7 @@ asd :math:`a^2 + b^2 = c^2`
 
    (a + b)^2 = a^2 + 2ab + b^2
 
-   frac{3}{4} 
+   \frac{3}{4} 
 
 .. sourcecode:: ipython3
 
