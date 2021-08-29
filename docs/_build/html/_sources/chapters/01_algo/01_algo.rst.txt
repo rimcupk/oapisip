@@ -255,11 +255,11 @@ asd :math:`a^2 + b^2 = c^2`
 
    (a + b)^2 = a^2 + 2ab + b^2
 
-   (a - b)^2 = a^2 - 2ab + b^2
+   \frac{3}{4} 
 
-.. sourcecode:: ipython
+.. sourcecode:: ipython3
 
-In [69]: lines = [1,2,3]
+
 
 
 Продолжение следует...
