@@ -179,7 +179,25 @@
        :align: center
        :alt: asda
 
+.. figure:: 01_mm_kvur.png
+       :scale: 100 %
+       :align: center
+       :alt: asda
+       
+**Блок-схема** алгоритма представлена на рисунке
 
-Примеры алгоритмов
+.. figure:: 01_sh_kvur.png
+       :scale: 100 %
+       :align: center
+       :alt: asda
+
+**Псевдокод**
+
+.. figure:: 01_ps_kvur.png
+       :scale: 100 %
+       :align: center
+       :alt: asda
+
+Продолжение следует...
 
 
