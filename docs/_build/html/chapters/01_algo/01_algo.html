@@ -180,6 +180,8 @@
 </section>
 <section id="id10">
 <h3>Примеры алгоритмов<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h3>
+<section id="id11">
+<h4>Линейный вычислительный алгоритм<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h4>
 <dl class="field-list simple">
 <dt class="field-odd">Пример</dt>
 <dd class="field-odd"><p>Создать алгоритм деления обыкновенных дробей.</p>
@@ -189,16 +191,81 @@
 <ol class="arabic simple">
 <li><p>Числитель первой дроби умножить на знаменатель второй дроби.</p></li>
 <li><p>Знаменатель первой дроби умножить на числитель второй дроби.</p></li>
+<li><p>Записать дробь, числитель которой есть результат выполнения пункта 1, а знаменатель — результат выполнения пункта 2.</p></li>
 </ol>
-<p>3. Записать дробь, числитель которой есть результат выполнения пункта 1, а знаменатель — результат выполнения пункта 2.
-Алгебраическая форма:</p>
+<p>Алгебраическая форма:</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/01_lin_form.png"><img alt="asda" src="../../_images/01_lin_form.png" style="width: 228.0px; height: 89.0px;" /></a>
 </figure>
+<p>Блок - схема и текст на алгоритмическом языке (псевдокоде) выглядят следующим образом:</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/01_lin_graph.png"><img alt="asda" src="../../_images/01_lin_graph.png" style="width: 665.0px; height: 403.0px;" /></a>
 </figure>
-<p>Примеры алгоритмов</p>
+<p>Данный алгоритм имеет линейную структуру. В нем все команды выполняются в строго однозначной последовательности, каждая по одному разу. Линейный алгоритм составляется из команд присваивания, ввода, вывода. При описании алгоритмов в блок-схемах типы, как правило,не указываются (но подразумеваются).
+В алгоритмах на АЯ для всех переменных типы указываются явно. Описание типов переменных производится сразу после заголовка алгоритма. В них используются следующие обозначения типов: цел — целый тип, вещ — вещественный тип, лит — символьный (литерный) тип, лог — логический тип. В алгоритме для деления дробей для всех переменных указан целый тип.</p>
+</section>
+<section id="id12">
+<h4>Ветвление<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Составить алгоритм решения квадратного уравнения  ax<sup>2</sup>+ bx + c = 0</p>
+<p><strong>Математическая модель</strong></p>
+<p>Решением в общем случае будут два корня x<sub>1</sub>, и x<sub>2</sub> , которые вычисляются по формуле:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_x12.png"><img alt="asda" src="../../_images/01_x12.png" style="width: 253.0px; height: 101.0px;" /></a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_mm_kvur.png"><img alt="asda" src="../../_images/01_mm_kvur.png" style="width: 876.0px; height: 248.0px;" /></a>
+</figure>
+<p><strong>Блок-схема</strong> алгоритма представлена на рисунке</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_sh_kvur.png"><img alt="asda" src="../../_images/01_sh_kvur.png" style="width: 882.0px; height: 693.0px;" /></a>
+</figure>
+<p><strong>Псевдокод</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_ps_kvur.png"><img alt="asda" src="../../_images/01_ps_kvur.png" style="width: 708.0px; height: 611.0px;" /></a>
+</figure>
+</section>
+<section id="id13">
+<h4>Циклы<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Дано целое положительное число п. Требуется вычислить n! (n-факториал).</p>
+<p><strong>Математическая модель</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_task_fact.png"><img alt="asda" src="../../_images/01_task_fact.png" style="width: 328.0px; height: 96.0px;" /></a>
+</figure>
+<dl class="field-list simple">
+<dt class="field-odd">Таблица трассировки</dt>
+<dd class="field-odd"><p>Метод, используемый для тестирования алгоритмов, чтобы убедиться, что во время обработки вычислений не возникает логических ошибок. Таблица обычно имеет форму многоколоночной таблицы с несколькими строками; В каждом столбце показана переменная, а в каждой строке-каждое число, введенное в алгоритм, и последующие значения переменных.</p>
+</dd>
+</dl>
+<p><strong>Блок-схема</strong>
+В алгоритме используются три переменные целого типа: <em>n</em> — аргумент; <em>i</em>—промежуточнаяпеременная; <em>F</em> — результат. Для проверки правильности алгоритма построена трассировочная таблица.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_sh_fact.png"><img alt="asda" src="../../_images/01_sh_fact.png" style="width: 723.0px; height: 663.0px;" /></a>
+</figure>
+<p><strong>Псевдокод</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_ps_fact.png"><img alt="asda" src="../../_images/01_ps_fact.png" style="width: 383.0px; height: 303.0px;" /></a>
+</figure>
+<p>В алгоритме использована структурная команда <em>цикл-пока</em>, или <em>цикл с предусловием</em>. Общий вид команды цикл-пока в блок-схемах и в алгоритмических языках следующий:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/01_cikl_ps.png"><img alt="asda" src="../../_images/01_cikl_ps.png" style="width: 663.0px; height: 274.0px;" /></a>
+</figure>
+<p>Выполнение серии команд (<strong>тела цикла</strong>) повторяется, пока условие цикла истинно. Когда условие становится ложным, цикл заканчивает выполнение. Служебные слова <strong>нц</strong> и <strong>кц</strong> обозначают начало цикла и конец цикла соответственно.</p>
+</section>
+<section id="id14">
+<h4>Вспомогательные алгоритмы<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h4>
+<dl class="field-list simple">
+<dt class="field-odd">Вспомогательный алгоритм</dt>
+<dd class="field-odd"><p>Алгоритм, целиком используемый в составе другого алгоритма.</p>
+</dd>
+</dl>
+<p>Составить алгоритм вычисления степенной функции с целым показателем у = х<sup>k</sup>, где к — целое число, не равное 0</p>
+<p>asd <span class="math">a^2 + b^2 = c^2</span></p>
+<div class="math">
+<p><span class="math">(a + b)^2 = a^2 + 2ab + b^2
+
+(a - b)^2 = a^2 - 2ab + b^2</span></p>
+</div><p>Продолжение следует…</p>
+</section>
 </section>
 </section>
 </section>
@@ -225,7 +292,13 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#id9">Данные и величины</a></li>
-<li><a class="reference internal" href="#id10">Примеры алгоритмов</a></li>
+<li><a class="reference internal" href="#id10">Примеры алгоритмов</a><ul>
+<li><a class="reference internal" href="#id11">Линейный вычислительный алгоритм</a></li>
+<li><a class="reference internal" href="#id12">Ветвление</a></li>
+<li><a class="reference internal" href="#id13">Циклы</a></li>
+<li><a class="reference internal" href="#id14">Вспомогательные алгоритмы</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
